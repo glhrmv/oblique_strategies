@@ -1,6 +1,8 @@
 defmodule ObliqueStrategies do
   @moduledoc """
-  Provides access to the Oblique Strategies cards.
+  Provides access to the
+  [Oblique Strategies](https://en.wikipedia.org/wiki/Oblique_Strategies)
+  cards.
   """
 
   @cards File.read!(
