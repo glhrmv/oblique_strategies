@@ -1,11 +1,13 @@
 # ObliqueStrategies
 
-**TODO: Add description**
+An Elixir library for [Oblique Strategies](https://en.wikipedia.org/wiki/Oblique_Strategies).
+
+The Oblique Strategies are copyright Brian Eno and Peter Schmidt © 1975. This library is a tool for interacting with the text of the cards, provided for educational and non-commercial purposes.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `oblique_strategies` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `oblique_strategies` to 
+your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -15,7 +17,5 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/oblique_strategies>.
+Documentation can be found at <https://hexdocs.pm/oblique_strategies>.
 
