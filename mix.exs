@@ -7,7 +7,15 @@ defmodule ObliqueStrategies.MixProject do
       version: "0.1.0",
       elixir: "~> 1.18",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      description: "Over one hundred worthwhile dilemmas",
+      package: package(),
+      source_url: "https://github.com/glhrmv/oblique_strategies",
+      homepage_url: "https://github.com/glhrmv/oblique_strategies",
+      docs: [
+        main: "ObliqueStrategies",
+        extras: ["README.md"]
+      ]
     ]
   end
 
@@ -23,6 +31,16 @@ defmodule ObliqueStrategies.MixProject do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+    ]
+  end
+
+  defp package do
+    [
+      maintainers: ["glhrmv"],
+      licenses: ["Unlicense"],
+      links: %{
+        "GitHub" => "https://github.com/glhrmv/oblique_strategies"
+      }
     ]
   end
 end
